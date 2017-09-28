@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="search_title">Search</string>
+    <string name="about_item">О приложении</string>
+    <string name="settings_item">Настройки</string>
+    <string name="home_item">Главная</string>
+    <string name="catalog_item">Каталог</string>
+    <string name="basket_item">Корзина</string>
+    <string name="account_item">Личный кабинет</string>
+    <string name="title_activity_catalog">CatalogActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="product_description">Описание:</string>
+    <string name="buy_button">Купить</string>
+    <string name="confirm_button">Оформить</string>
+    <string name="dialog_button1">Купить</string>
+    <string name="dialog_button2">Отмена</string>
+    <string name="popular">Популярное</string>
+</resources>

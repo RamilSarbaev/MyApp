@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardView"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/basketItemImage"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/basketItemName"
+                android:layout_toEndOf="@+id/basketItemImage"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/basketItemPrice"
+                android:layout_toEndOf="@+id/basketItemImage"
+                android:layout_below="@+id/basketItemName"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/basketItemDeleteBtn"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/ic_delete_item"
+                android:background="@color/mainBackground"
+                android:layout_margin="5dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
