@@ -8,33 +8,33 @@ public class BasketResponse
 {
     @SerializedName("success")
     @Expose
-    private int success;
+    private int mSuccess;
 
     @SerializedName("message")
     @Expose
-    private String message;
+    private String mMessage;
 
     public int getSuccess() {
-        return success;
+        return mSuccess;
     }
 
     public void setSuccess(int success) {
-        this.success = success;
+        mSuccess = success;
     }
 
     public String getMessage() {
-        return message;
+        return mMessage;
     }
 
     public void setMessage(String message) {
-        this.message = message;
+        mMessage = message;
     }
 
     @Override
     public String toString() {
         return "Post{" +
-                "success='" + success +
-                ", message=" + message + '\'' +
+                "success ='" + mSuccess +
+                ", message =" + mMessage + '\'' +
                 '}';
     }
 }

@@ -8,104 +8,104 @@ public class Products
 {
     @SerializedName("pid")
     @Expose
-    private int pid;
+    private int mPid;
 
     @SerializedName("name")
     @Expose
-    private String name;
+    private String mName;
 
     @SerializedName("price")
     @Expose
-    private double price;
+    private double mPrice;
 
     @SerializedName("description")
     @Expose
-    private String description;
+    private String mDescription;
 
     @SerializedName("available")
     @Expose
-    private int available;
+    private int mAvailable;
 
     @SerializedName("id_category")
     @Expose
-    private int id_category;
+    private int mIdCategory;
 
     @SerializedName("image")
     @Expose
-    private String image;
+    private String mImage;
 
     public Products(String name, int id)
     {
-        this.setName(name);
-        this.setPid(id);
+        setName(name);
+        setPid(id);
     }
 
     public int getPid() {
-        return pid;
+        return mPid;
     }
 
     public void setPid(int pid) {
-        this.pid = pid;
+        mPid = pid;
     }
 
     public String getName() {
-        return name;
+        return mName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        mName = name;
     }
 
     public double getPrice() {
-        return price;
+        return mPrice;
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        mPrice = price;
     }
 
     public String getDescription() {
-        return description;
+        return mDescription;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        mDescription = description;
     }
 
     public int getAvailable() {
-        return available;
+        return mAvailable;
     }
 
     public void setAvailable(int available) {
-        this.available = available;
+        mAvailable = available;
     }
 
-    public int getId_category() {
-        return id_category;
+    public int getIdCategory() {
+        return mIdCategory;
     }
 
-    public void setId_category(int id_category) {
-        this.id_category = id_category;
+    public void setIdCategory(int idCategory) {
+        mIdCategory = idCategory;
     }
 
     public String getImage() {
-        return image;
+        return mImage;
     }
 
     public void setImage(String image) {
-        this.image = image;
+        mImage = image;
     }
 
     @Override
     public String toString() {
         return "Products{" +
-                "pid='" + pid + '\'' +
-                ", name='" + name + '\'' +
-                ", price='" + price + '\'' +
-                ", description='" + description + '\'' +
-                ", available='" + available + '\'' +
-                ", id_category='" + id_category + '\'' +
-                ", image='" + image + '\'' +
+                "pid ='" + mPid + '\'' +
+                ", name ='" + mName + '\'' +
+                ", price ='" + mPrice + '\'' +
+                ", description ='" + mDescription + '\'' +
+                ", available ='" + mAvailable + '\'' +
+                ", id_category ='" + mIdCategory + '\'' +
+                ", image ='" + mImage + '\'' +
                 '}';
     }
 }

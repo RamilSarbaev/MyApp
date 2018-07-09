@@ -8,33 +8,33 @@ public class Categories
 {
     @SerializedName("pid")
     @Expose
-    private int pid;
+    private int mPid;
 
     @SerializedName("name")
     @Expose
-    private String name;
+    private String mName;
 
     public int getPid() {
-        return pid;
+        return mPid;
     }
 
     public void setPid(int pid) {
-        this.pid = pid;
+        mPid = pid;
     }
 
     public String getName() {
-        return name;
+        return mName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        mName = name;
     }
 
     @Override
     public String toString() {
         return "Categories{" +
-                "pid='" + pid + '\'' +
-                ", name='" + name + '\'' +
+                "pid ='" + mPid + '\'' +
+                ", name ='" + mName + '\'' +
                 '}';
     }
 }

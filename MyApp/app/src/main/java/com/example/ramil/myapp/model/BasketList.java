@@ -10,33 +10,33 @@ public class BasketList
 {
     @SerializedName("success")
     @Expose
-    private int success;
+    private int mSuccess;
 
     @SerializedName("basket")
     @Expose
-    private ArrayList<Basket> basket;
+    private ArrayList<Basket> mBasket;
 
     public int getSuccess() {
-        return success;
+        return mSuccess;
     }
 
     public void setSuccess(int success) {
-        this.success = success;
+        mSuccess = success;
     }
 
     public ArrayList<Basket> getBasket() {
-        return basket;
+        return mBasket;
     }
 
     public void setBasket(ArrayList<Basket> basket) {
-        this.basket = basket;
+        mBasket = basket;
     }
 
     @Override
     public String toString() {
         return "BasketList{" +
-                "basket='" + basket +
-                ", success=" + success + '\'' +
+                "Basket ='" + mBasket +
+                ", Success =" + mSuccess + '\'' +
                 '}';
     }
 }

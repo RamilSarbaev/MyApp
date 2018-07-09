@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -11,14 +12,14 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/cardView"
+        android:id="@+id/category_card_view"
         app:cardElevation="2dp"
         app:cardUseCompatPadding="true">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/categRVtitle"
+            android:id="@+id/categegory_title"
             android:textSize="8pt"
             android:textColor="@color/black"
             android:paddingBottom="5dp"
@@ -27,13 +28,13 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/productItemImageBtn"
+            android:id="@+id/product_item_image_button"
             android:layout_gravity="end"
             app:srcCompat="@drawable/ic_go_to_category"
             android:background="@color/mainBackground"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:paddingRight="10dp"/>
+            android:paddingEnd="10dp"/>
 
     </android.support.v7.widget.CardView>
 

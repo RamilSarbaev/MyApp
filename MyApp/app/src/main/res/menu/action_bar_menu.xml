@@ -2,12 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!--TODO search-->
     <item android:id="@+id/action_search"
         android:title="@string/search_title"
         android:orderInCategory="1"
         android:icon="@drawable/magnify"
-        android:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="always|collapseActionView"/>
+        app:showAsAction="ifRoom|collapseActionView"/>
+        <!--android:actionViewClass="android.support.v7.widget.SearchView"-->
 
     <item android:id="@+id/accountMenuItem"
         android:title="@string/account_item"

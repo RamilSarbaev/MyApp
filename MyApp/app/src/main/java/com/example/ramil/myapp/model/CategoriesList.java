@@ -10,33 +10,33 @@ public class CategoriesList
 {
     @SerializedName("success")
     @Expose
-    private int success;
+    private int mSuccess;
 
     @SerializedName("categories")
     @Expose
-    private ArrayList<Categories> categories;
+    private ArrayList<Categories> mCategories;
 
     public int getSuccess() {
-        return success;
+        return mSuccess;
     }
 
     public void setSuccess(int success) {
-        this.success = success;
+        mSuccess = success;
     }
 
     public ArrayList<Categories> getCategories() {
-        return categories;
+        return mCategories;
     }
 
     public void setCategories(ArrayList<Categories> categories) {
-        this.categories = categories;
+        mCategories = categories;
     }
 
     @Override
     public String toString() {
         return "CategoriesList{" +
-                "categories='" + categories +
-                ", success=" + success + '\'' +
+                "categories ='" + mCategories +
+                ", success =" + mSuccess + '\'' +
                 '}';
     }
 }

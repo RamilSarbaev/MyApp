@@ -8,73 +8,73 @@ public class Basket
 {
     @SerializedName("id_order")
     @Expose
-    private int id_order;
+    private int mIdOrder;
 
     @SerializedName("name")
     @Expose
-    private String name;
+    private String mName;
 
     @SerializedName("count")
     @Expose
-    private int count;
+    private int mCount;
 
     @SerializedName("total_price")
     @Expose
-    private int total_price;
+    private int mTotalPrice;
 
     @SerializedName("image")
     @Expose
-    private String image;
+    private String mImage;
 
 
-    public int getId_order() {
-        return id_order;
+    public int getIdOrder() {
+        return mIdOrder;
     }
 
-    public void setId_order(int id_order) {
-        this.id_order = id_order;
+    public void setIdOrder(int idOrder) {
+        mIdOrder = idOrder;
     }
 
     public String getName() {
-        return name;
+        return mName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        mName = name;
     }
 
     public int getCount() {
-        return count;
+        return mCount;
     }
 
     public void setCount(int count) {
-        this.count = count;
+        mCount = count;
     }
 
-    public int getTotal_price() {
-        return total_price;
+    public int getTotalPrice() {
+        return mTotalPrice;
     }
 
-    public void setTotal_price(int total_price) {
-        this.total_price = total_price;
+    public void setTotalPrice(int totalPrice) {
+        mTotalPrice = totalPrice;
     }
 
     public String getImage() {
-        return image;
+        return mImage;
     }
 
     public void setImage(String image) {
-        this.image = image;
+        mImage = image;
     }
 
     @Override
     public String toString() {
         return "Products{" +
-                "id_order='" + id_order + '\'' +
-                ", name='" + name + '\'' +
-                ", count='" + count + '\'' +
-                ", total_price='" + total_price + '\'' +
-                ", image='" + image + '\'' +
+                "IdOrder='" + mIdOrder + '\'' +
+                ", Name='" + mName + '\'' +
+                ", Count='" + mCount + '\'' +
+                ", TotalPrice='" + mTotalPrice + '\'' +
+                ", Image='" + mImage + '\'' +
                 '}';
     }
 }

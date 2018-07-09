@@ -10,33 +10,33 @@ public class ProductsList
 {
     @SerializedName("success")
     @Expose
-    private int success;
+    private int mSuccess;
 
     @SerializedName("products")
     @Expose
-    private ArrayList<Products> products;
+    private ArrayList<Products> mProducts;
 
     public int getSuccess() {
-        return success;
+        return mSuccess;
     }
 
     public void setSuccess(int success) {
-        this.success = success;
+        mSuccess = success;
     }
 
     public ArrayList<Products> getProducts() {
-        return products;
+        return mProducts;
     }
 
     public void setProducts(ArrayList<Products> products) {
-        this.products = products;
+        mProducts = products;
     }
 
     @Override
     public String toString() {
         return "ProductsList{" +
-                "products='" + products +
-                ", success=" + success + '\'' +
+                "products ='" + mProducts +
+                ", success =" + mSuccess + '\'' +
                 '}';
     }
 }
